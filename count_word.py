@@ -2,6 +2,7 @@
 
 def SEE1(word,phrase):
     count=0
+    word=word.strip()
     xx=phrase.split()
     n=len(xx)
     for i in range (n):  
@@ -11,6 +12,6 @@ def SEE1(word,phrase):
         else:
             continue
 
-print(count)
+return count
 
 
